@@ -24,7 +24,7 @@ public class BoardActivity extends AppCompatActivity {
 
 
 
-        setContentView(R.layout.activity_schoolboard);
+        setContentView(R.layout.activity_board);
 
         bcard1=(CardView)findViewById(R.id.boardcard1);
 
