@@ -1,5 +1,6 @@
 package com.abhitech.easy2l;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -60,7 +61,7 @@ public class LoginActivity extends AppCompatActivity {
                 @Override
                 public void onVerificationCompleted(PhoneAuthCredential phoneAuthCredential) {
 
-                    Toast.makeText(LoginActivity.this,"Verification success",Toast.LENGTH_LONG).show();
+                    Toast.makeText(LoginActivity.this,"Verification sent successfully",Toast.LENGTH_LONG).show();
                     autootp=phoneAuthCredential.getSmsCode();
                     otp.setText(autootp);
                     PhoneAuthCredential credential= PhoneAuthProvider.getCredential(manualotp,autootp);
@@ -80,7 +81,7 @@ public class LoginActivity extends AppCompatActivity {
                     super.onCodeSent(s, forceResendingToken);
                     manualotp=s;
                     verify(manualotp);
-                    Toast.makeText(LoginActivity.this,"Verification successfull",Toast.LENGTH_LONG).show();
+                    Toast.makeText(LoginActivity.this,"Otp sent successfully",Toast.LENGTH_LONG).show();
                 }
             };
         });
@@ -114,6 +115,8 @@ public class LoginActivity extends AppCompatActivity {
                 if(task.isSuccessful())
                 {
                     Toast.makeText(LoginActivity.this,"OTP verification Successfull",Toast.LENGTH_LONG).show();
+                    Intent intent=new Intent(LoginActivity.this,MainActivity.class);
+                    startActivity(intent);
 
                 }
                 else
