@@ -19,11 +19,6 @@ public class BoardActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_board);
 
-
-
-
-
-
         setContentView(R.layout.activity_board);
 
         bcard1=(CardView)findViewById(R.id.boardcard1);

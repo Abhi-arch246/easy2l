@@ -18,9 +18,6 @@ public class AlmostReadyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_almost_ready);
 
-
-
-
         myclass=(TextView)findViewById(R.id.classmain);
         myboard=(TextView)findViewById(R.id.boardmain);
 
@@ -31,7 +28,7 @@ public class AlmostReadyActivity extends AppCompatActivity {
         final  int sclass = getIntent().getIntExtra("class", 0);
 
         myclass.setText("Class: "+sclass);
-        myboard.setText("Class: "+boardname);
+        myboard.setText("Board: "+boardname);
         button=findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
