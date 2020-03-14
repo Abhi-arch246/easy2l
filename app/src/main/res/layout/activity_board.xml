@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:context=".BoardActivity">
 
 
@@ -13,17 +14,17 @@
         android:layout_width="187dp"
         android:layout_height="32dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
         android:layout_marginStart="106dp"
         android:layout_marginTop="43dp"
+
         android:layout_marginEnd="118dp"
         android:gravity="center"
-
         android:text="TextView"
-        android:textSize="25sp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true" />
+        android:textSize="25sp" />
 
     <TextView
         android:id="@+id/board"
@@ -44,18 +45,18 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/boardcard1"
-        android:layout_margin="15dp"
-        android:padding="20dp"
-
-        app:cardCornerRadius="12dp"
-        android:elevation="10dp"
-        android:layout_below="@id/board"
         android:layout_width="match_parent"
-        android:layout_height="110dp">
+        android:layout_height="110dp"
+
+        android:layout_below="@id/board"
+        android:layout_margin="15dp"
+        android:elevation="10dp"
+        android:padding="20dp"
+        app:cardCornerRadius="12dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <ImageView
                 android:id="@+id/logo"
@@ -102,21 +103,19 @@
         </RelativeLayout>
 
 
-
     </androidx.cardview.widget.CardView>
-
 
 
     <androidx.cardview.widget.CardView
         android:id="@+id/boardcard2"
-        android:layout_margin="15dp"
-        android:padding="20dp"
-        app:cardCornerRadius="12dp"
-        android:elevation="10dp"
-        android:layout_marginTop="5dp"
-        android:layout_below="@id/boardcard1"
         android:layout_width="match_parent"
-        android:layout_height="110dp">
+        android:layout_height="110dp"
+        android:layout_below="@id/boardcard1"
+        android:layout_margin="15dp"
+        android:layout_marginTop="5dp"
+        android:elevation="10dp"
+        android:padding="20dp"
+        app:cardCornerRadius="12dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -172,14 +171,14 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/boardcard3"
-        android:layout_margin="15dp"
-        android:padding="20dp"
-        app:cardCornerRadius="12dp"
-        android:elevation="10dp"
-        android:layout_marginTop="5dp"
-        android:layout_below="@id/boardcard2"
         android:layout_width="match_parent"
-        android:layout_height="110dp">
+        android:layout_height="110dp"
+        android:layout_below="@id/boardcard2"
+        android:layout_margin="15dp"
+        android:layout_marginTop="5dp"
+        android:elevation="10dp"
+        android:padding="20dp"
+        app:cardCornerRadius="12dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
