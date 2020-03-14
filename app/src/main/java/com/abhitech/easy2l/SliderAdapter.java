@@ -21,7 +21,7 @@ public class SliderAdapter extends PagerAdapter {
 
     //    Array for images
     public int[] slide_images = {
-            R.drawable.three60,
+            R.drawable.image_5,
             R.drawable.image_2,
             R.drawable.image_4,
             R.drawable.image_3
@@ -31,7 +31,7 @@ public class SliderAdapter extends PagerAdapter {
             "India's Most Loved Learning App",
             "Engaging Video Lessons",
             "Personalized Learning Journeys",
-            "Unlimited Practice & In-depth Analysis"
+            "Practice & In-depth Analysis"
     };
     //    Array for subtitles
     public String[] slide_subtitles = {
