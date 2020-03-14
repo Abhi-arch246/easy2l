@@ -37,7 +37,7 @@ public class AlmostReadyActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent1=new Intent(AlmostReadyActivity.this,MainActivity.class);
-                startActivity(intent);
+                startActivity(intent1);
             }
         });
     }
