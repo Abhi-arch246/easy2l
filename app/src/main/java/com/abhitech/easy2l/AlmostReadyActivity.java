@@ -27,7 +27,7 @@ public class AlmostReadyActivity extends AppCompatActivity {
         final Intent intent = getIntent();
 
 
-        String boardname = intent.getStringExtra(Intent.EXTRA_TEXT);
+        String boardname = intent.getStringExtra("board");
         final  int sclass = getIntent().getIntExtra("class", 0);
 
         myclass.setText("Class: "+sclass);
