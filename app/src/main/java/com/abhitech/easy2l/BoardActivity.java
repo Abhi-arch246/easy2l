@@ -43,7 +43,7 @@ public class BoardActivity extends AppCompatActivity {
 
                 Intent intent=new Intent(BoardActivity.this,AlmostReadyActivity.class);
                 intent.putExtra("class", getclass);
-                intent.putExtra("board", String.valueOf(btitle1));
+                intent.putExtra("board", "CBSE");
                 startActivity(intent);
             }
         });
@@ -56,7 +56,7 @@ public class BoardActivity extends AppCompatActivity {
 
                 Intent intent=new Intent(BoardActivity.this,AlmostReadyActivity.class);
                 intent.putExtra("class", getclass);
-                intent.putExtra("board", String.valueOf(btitle2));
+                intent.putExtra("board", "ICSE");
                 startActivity(intent);
             }
         });
@@ -69,7 +69,7 @@ public class BoardActivity extends AppCompatActivity {
 
                 Intent intent=new Intent(BoardActivity.this,AlmostReadyActivity.class);
                 intent.putExtra("class", getclass);
-                intent.putExtra("board", String.valueOf(btitle3));
+                intent.putExtra("board", "SSC");
                 startActivity(intent);
             }
         });

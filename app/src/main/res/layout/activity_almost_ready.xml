@@ -16,48 +16,61 @@
         android:layout_marginTop="50dp"
         android:src="@drawable/lesson"
         android:layout_marginEnd="107dp" />
+
     <TextView
         android:id="@+id/title"
-        android:layout_width="match_parent"
+        android:layout_width="234dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="81dp"
         android:gravity="center"
-        android:text="Your customised \nCourse is ready"
+        android:text="Your customised Course is ready"
         android:textSize="25sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold">
+
+
+    </TextView>
+
     <TextView
         android:id="@+id/classmain"
-        android:layout_width="match_parent"
+        android:layout_width="232dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="85dp"
         android:gravity="center"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:text=""
         android:textSize="25sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold">
+
+
+    </TextView>
 
     <TextView
         android:id="@+id/boardmain"
-        android:layout_width="match_parent"
+        android:layout_width="233dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="85dp"
         android:gravity="center"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:text=""
         android:textSize="25sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold">
+
+
+    </TextView>
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="272dp"
         android:layout_height="50dp"
+        android:layout_marginStart="76dp"
         android:layout_marginTop="61dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginLeft="30dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="182dp"
+
         android:background="@drawable/round_btn2"
         android:text="JOIN THIS COURSE"
         android:textSize="18sp" />
