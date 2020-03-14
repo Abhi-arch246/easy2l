@@ -7,7 +7,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
-
 import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator;
 
 public class SecondIntro extends AppCompatActivity {
