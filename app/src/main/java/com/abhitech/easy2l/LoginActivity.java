@@ -117,7 +117,6 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(LoginActivity.this,"OTP verification Successfull",Toast.LENGTH_LONG).show();
                     Intent intent=new Intent(LoginActivity.this,SecondIntro.class);
                     startActivity(intent);
-
                 }
                 else
                     Toast.makeText(LoginActivity.this,"OTP verification failed",Toast.LENGTH_LONG).show();
