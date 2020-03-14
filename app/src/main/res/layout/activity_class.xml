@@ -1,9 +1,170 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ClassActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="397dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+
+        android:gravity="center_vertical">
+
+
+        <LinearLayout
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="6dp"
+            android:textAlignment="center"
+            android:weightSum="3">
+
+            <Button
+
+                android:id="@+id/num5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg1"
+                android:elevation="2dp"
+                android:onClick="changecolor"
+                android:padding="2dp"
+                android:text="5">
+
+            </Button>
+
+            <Button
+                android:id="@+id/num6"
+                android:background="@drawable/bg1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:onClick="changecolor"
+                android:elevation="2dp"
+                android:padding="2dp"
+                android:text="6">
+
+            </Button>
+
+            <Button
+                android:background="@drawable/bg1"
+                android:id="@+id/num7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="changecolor"
+                android:elevation="2dp"
+                android:padding="2dp"
+                android:text="7">
+
+            </Button>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_below="@id/row1"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <Button
+                android:id="@+id/num8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg1"
+                android:elevation="2dp"
+                android:onClick="changecolor"
+                android:padding="2dp"
+                android:text="8">
+
+            </Button>
+
+            <Button
+                android:id="@+id/num9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg1"
+                android:elevation="2dp"
+                android:onClick="changecolor"
+                android:padding="2dp"
+                android:text="9">
+
+            </Button>
+
+            <Button
+                android:id="@+id/num10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg1"
+                android:elevation="2dp"
+                android:onClick="changecolor"
+                android:padding="2dp"
+                android:text="10">
+
+            </Button>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_height="72dp"
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+
+            android:layout_below="@id/row2"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <Button
+                android:id="@+id/num11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg1"
+                android:elevation="2dp"
+                android:padding="2dp"
+                android:onClick="changecolor"
+                android:text="11">
+
+            </Button>
+
+            <Button
+                android:id="@+id/num12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/bg1"
+                android:elevation="2dp"
+                android:onClick="changecolor"
+                android:padding="2dp"
+                android:text="12">
+
+            </Button>
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
