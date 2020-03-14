@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "546963087067",
+    "firebase_url": "https://easy2l.firebaseio.com",
+    "project_id": "easy2l",
+    "storage_bucket": "easy2l.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546963087067:android:f0353f0c717606c25036fe",
+        "android_client_info": {
+          "package_name": "com.abhitech.easy2l"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546963087067-nar6sn5tr4h43797nu16m9f7pur1ckq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abhitech.easy2l",
+            "certificate_hash": "b2c2d99e58dfc4e014750f5a91d775d94eb70675"
+          }
+        },
+        {
+          "client_id": "546963087067-ngecqhno8jnm8bu9tfvqnfjhqvl2las9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5ZaTt-T04FLjf3TcLHSvxWgpADfYtNF8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546963087067-ngecqhno8jnm8bu9tfvqnfjhqvl2las9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
