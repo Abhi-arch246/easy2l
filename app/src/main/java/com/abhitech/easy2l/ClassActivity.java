@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
 public class ClassActivity extends AppCompatActivity {
 
@@ -57,7 +58,7 @@ public class ClassActivity extends AppCompatActivity {
 
 
             case R.id.num12:
-
+//                btn12.setBackground(ContextCompat.getDrawable(getApplicationContext(),R.drawable.selected_btn));
                 int value5 = Integer.parseInt(((Button)view).getText().toString());
                 Intent intent=new Intent(this,BoardActivity.class);
                 intent.putExtra("class", value5);

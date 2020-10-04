@@ -27,6 +27,7 @@ public class FirstIntro extends AppCompatActivity {
         login = findViewById(R.id.login);
         wormDotsIndicator=findViewById(R.id.worm_dots_indicator);
 
+        signup.setEnabled(false);
         sliderAdapter=new SliderAdapter(this);
         mviewpager.setAdapter(sliderAdapter);
         wormDotsIndicator.setViewPager(mviewpager);

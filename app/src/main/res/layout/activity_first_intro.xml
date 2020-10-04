@@ -20,28 +20,29 @@
         android:layout_height="wrap_content"
         android:layout_above="@id/signup"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="20dp"
         app:dotsColor="#4d089a"
         app:dotsCornerRadius="8dp"
-        app:dotsSize="7dp"
+        app:dotsSize="10dp"
         app:dotsSpacing="4dp"
         app:dotsStrokeColor="#4d089a"
         app:dotsStrokeWidth="2dp" />
 
     <Button
         android:id="@+id/signup"
-        android:layout_width="150dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="25dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/signup_btn"
+        android:textColor="#B19C9C"
         android:text="Sign Up"
         android:textStyle="bold" />
 
     <Button
         android:id="@+id/login"
-        android:layout_width="150dp"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"

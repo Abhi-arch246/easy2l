@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -24,6 +25,7 @@ import java.util.concurrent.TimeUnit;
 public class LoginActivity extends AppCompatActivity {
     EditText mob_number,otp;
     Button submit,submitotp;
+    ImageButton imageButton;
     PhoneAuthProvider phoneAuthProvider;
     FirebaseAuth firebaseAuth;
     String manualotp,autootp;
@@ -37,6 +39,15 @@ public class LoginActivity extends AppCompatActivity {
         submitotp=findViewById(R.id.submit_otp);
         otp=findViewById(R.id.otp);
         submit=findViewById(R.id.submit);
+        imageButton=findViewById(R.id.imageButton);
+
+        imageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intento=new Intent(LoginActivity.this,FirstIntro.class);
+                startActivity(intento);
+            }
+        });
 
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
